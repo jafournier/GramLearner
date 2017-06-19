@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -e '/^$/{N;/\n[A-Z]\|\f\|\n[0-9][0-9]*$/d}' test.txt | sed -e '/^\.$/d' -e '/\f/d' -e '/^$/d' -e '/^[0-9][0-9]*[ ]*$/d' -e '/^Chapter/d' | sed -e '/^[0-9][0-9]*/d' | less 

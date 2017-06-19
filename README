@@ -1,0 +1,8 @@
+This repository contains : 
+wordlist.txt : file containing words of english dictionnary
+test.txt : file containing the bible in text format
+test3.txt: file containing a filtered version of test.txt filtered by req
+req : bash script to filter text.txt
+req2 : same as req except it is piped to less
+GramLearner.py : implementation of NGram in python
+
